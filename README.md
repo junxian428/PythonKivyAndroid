@@ -69,6 +69,12 @@ sudo apt-get install cython
 buildozer android debug deploy run
 
 
+Issues:
+Buildozer Error `ValueError: read of closed file` #760
+
+
+Discussion: https://github.com/kivy/buildozer/issues/760
+
 
 Learning Resources:
 1. https://youtu.be/9JH8r8mz0g4
