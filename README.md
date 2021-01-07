@@ -47,13 +47,6 @@ python3 main.py
 
 
 
-Learning Resources:
-1. https://youtu.be/9JH8r8mz0g4
-
-
-
-
-
 Deploying
 ---------------------------------------------------------
 buildozer init
@@ -71,6 +64,12 @@ android.logcat_filters = *:S python:D
 
 ///////////
 sudo apt install -y git zip openjdk-8-jdk autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev
+pip3 install --user --upgrade cython virtualenv
+sudo apt-get install cython 
+buildozer android debug deploy run
 
 
 
+Learning Resources:
+1. https://youtu.be/9JH8r8mz0g4
+2. https://youtu.be/EupAeyL8zAo
