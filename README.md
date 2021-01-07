@@ -44,3 +44,8 @@ python3 main.py
 [INFO   ] [Base        ] Start application main loop
 [INFO   ] [Base        ] Leaving application in progress...
 
+
+
+
+Learning Resources:
+1. https://youtu.be/9JH8r8mz0g4
