@@ -49,3 +49,28 @@ python3 main.py
 
 Learning Resources:
 1. https://youtu.be/9JH8r8mz0g4
+
+
+
+
+
+Deploying
+---------------------------------------------------------
+buildozer init
+
+edit
+
+
+
+title = Hello World
+package.name = helloworld
+source.include_exts = py,png,jpg,kv,atlas,txt
+android.logcat_filters = *:S python:D
+
+
+
+///////////
+sudo apt install -y git zip openjdk-8-jdk autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev
+
+
+
